@@ -7,7 +7,6 @@
           type="radio" 
           value="すべて" 
           v-model="todoStatus"
-          @click="todoDisplay"
         >すべて
       </label>
       <label>
@@ -15,7 +14,6 @@
           type="radio" 
           value="作業中" 
           v-model="todoStatus"
-          @click="todoDisplay"
         >作業中
       </label>
       <label>
@@ -23,7 +21,6 @@
           type="radio" 
           value="完了" 
           v-model="todoStatus"
-          @click="todoDisplay"
         >完了
       </label>
     </fieldset>
